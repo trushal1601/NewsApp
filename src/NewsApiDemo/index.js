@@ -26,7 +26,6 @@ const NewsApiDemo = ({navigation}) => {
     <View style={{flex: 1}}>
       <Text style={styles.headerText}>News</Text>
       <FlatList
-        // horizontal
         data={data}
         renderItem={item => {
           return (
